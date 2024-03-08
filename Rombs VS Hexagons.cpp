@@ -1,12 +1,12 @@
-#include "lab_m1/Rombs VS Hexagons/Rombs VS Hexagons.h"
+#include "Rombs VS Hexagons.h"
 
 #include <vector>
 #include <iostream>
 #include <cstdlib>
 
-#include "lab_m1/Rombs VS Hexagons/object2D.h"
-#include "lab_m1/Rombs VS Hexagons/transform2D.h"
-#include "lab_m1/Rombs VS Hexagons/functions.h"
+#include "object2D.h"
+#include "transform2D.h"
+#include "functions.h"
 
 using namespace std;
 using namespace m1;
