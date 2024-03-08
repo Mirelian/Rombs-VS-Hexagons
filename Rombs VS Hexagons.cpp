@@ -1,4 +1,4 @@
-#include "Rombs VS Hexagons.h"
+#include "lab_m1/Rombs VS Hexagons/Rombs VS Hexagons.h"
 
 #include <vector>
 #include <iostream>
@@ -294,7 +294,7 @@ void R_VS_H::OnMouseBtnPress(int mouseX, int mouseY, int button, int mods)
     if (IS_BIT_SET(button, GLFW_MOUSE_BUTTON_LEFT)) {
         if (mouseTurret == 0)
             for (int i = 0;i <= 3;i++) {
-                if (fun::Collision2D((mouseX - shapeDifX / 2.f) * allignDifX, (-mouseY + resolution.y - shapeDifY / 2.f) * allignDifY, 75 + 195 * i + cx, 580 + cy, 60.f*sqrt(2))&&bank>=i-i/3) {
+                if (fun::Collision2D((mouseX - shapeDifX / 2.f) * allignDifX, (-mouseY + resolution.y - shapeDifY / 2.f) * allignDifY, 75 + 195 * i + cx, 580 + cy, 60.f*sqrt(2))&&bank>=(i+1)/2+1) {
                     mouseTurret = i + 1;
                     break;
                 }
