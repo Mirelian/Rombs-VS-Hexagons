@@ -12,12 +12,12 @@ git clone https://github.com/UPB-Graphics/gfx-framework
 2.  Run the following command:
 ```
 cd src/lab_m1
-git submodule add https://github.com/Mirelian/Rombs-VS-Hexagons Rombs VS Hexagons
+git submodule add https://github.com/Mirelian/Rombs-VS-Hexagons
 git submodule update --init --recursive
 ```
 3.  Open the lab_list.h file in src/lab_m1 and add:
 ```
-#include "lab_m1/Rombs VS Hexagons/Rombs VS Hexagons.h"
+#include "lab_m1/Rombs-VS-Hexagons/Rombs VS Hexagons.h"
 ```
 4.  Open the main.cpp file in src and change the 'world' object to:
 ```
