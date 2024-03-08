@@ -1,5 +1,5 @@
 #pragma once
-#include "lab_m1/Rombs VS Hexagons/transform2D.h"
+#include "transform2D.h"
 
 #include "utils/glm_utils.h"
 
