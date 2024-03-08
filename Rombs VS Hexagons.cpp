@@ -1,4 +1,4 @@
-#include "lab_m1/Rombs VS Hexagons/Rombs VS Hexagons.h"
+#include "Rombs VS Hexagons.h"
 
 #include <vector>
 #include <iostream>
